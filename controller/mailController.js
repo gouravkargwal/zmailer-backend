@@ -8,7 +8,7 @@ const Unsubscribe = require("../model/unsubscribeModel");
 const EmailList = require("../model/emailListModel");
 const Domain = require("../model/domainModel");
 const User = require("../model/userModal");
-const appConstant = require("../../client/src/Constant/appConstant");
+const appConstant = require("./../constant/appConstant");
 const { v4: uuidv4 } = require("uuid");
 const createHttpError = require("http-errors");
 

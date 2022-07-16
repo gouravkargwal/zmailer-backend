@@ -2,9 +2,7 @@ const nodemailer = require("nodemailer");
 const createError = require("http-errors");
 const Customer = require("../model/customerModel");
 const jwt = require("jsonwebtoken");
-const {
-  default: appConstant,
-} = require("../../client/src/Constant/appConstant");
+const { default: appConstant } = require("./../constant/appConstant");
 const { OAuth2Client } = require("google-auth-library");
 
 exports.register = async (req, res, next) => {
